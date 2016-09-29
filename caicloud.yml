@@ -4,8 +4,8 @@ build:
   context_dir: .
 
 deploy:
-  - application: de
-    cluster: f25b2665-672a-4e8a-b661-05f81cba4214
-    partition: deploy-test
+  - application: e2e
+    cluster: 305bfcc7-9d55-4750-a322-1cc871a5b024
+    partition: e2e
     containers:
-    - con-1
+    - con-e2e
